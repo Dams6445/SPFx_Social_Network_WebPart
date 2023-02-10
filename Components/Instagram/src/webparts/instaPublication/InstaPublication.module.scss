@@ -1,0 +1,114 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.post {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  border: 3px solid #000000;
+  margin-top: 5px;
+}
+
+.info {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.info .username {
+  width: auto;
+  font-weight: bold;
+  color: #000;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.info .user {
+  display: flex;
+  align-items: center;
+}
+
+.info .profilePic {
+  height: 40px;
+  width: 40px;
+  padding: 0;
+  background: none;
+}
+
+.info .profilePic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.postAccountImage {
+  width: 100%;
+  height: 217px;
+  object-fit: cover;
+}
+
+.postPubliImage {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.postThumbnail {
+  width: 100%;
+  height: 217px;
+  object-fit: cover;
+}
+
+.postContent {
+  width: 100%;
+  margin-left: 10px;
+}
+
+.likes {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.description {
+  margin: 10px 0;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.description span {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.postTime {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 12px;
+}
+
+.modalContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: stretch;
+}
+
+.modalHeader {
+  flex: 1 1 auto;
+  border-top: 4px solid;
+  color: black;
+  display: flex;
+  align-items: center;
+  font-weight: normal;
+  padding: 12px 12px 14px 24px;
+}
+
+// .triangle {
+//   display: inline-block;
+//   height: 0;
+//   width: 0;
+//   border-top: 14px solid transparent;
+//   border-bottom: 14px solid transparent;
+//   border-left: 25px solid rgb(255, 0, 0);
+// }
